@@ -77,7 +77,7 @@ public class KillerGameAlgorithm {
     public void createDocs(){
         Random random = new Random();
         for (String player : players) {
-            playerCodes.put(player, Integer.toHexString(random.nextInt(1<<24)));
+            playerCodes.put(player, Integer.toHexString(random.nextInt(1<<20)));
         }
         createDirectory(folder);
         writePages("files/pageTemplate.html");
