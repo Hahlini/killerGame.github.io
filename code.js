@@ -5,4 +5,5 @@ function myFunction(){
     if(codes.includes(code)){
         window.location.href = "folder/" + code + ".html"
     }
+    return = false
 };
