@@ -5,4 +5,5 @@ const codes = ["9146e7", "cf4ac3", "f4bf19"]
     if(codes.includes(code)){
         window.location.href("folder/" + code + ".html")
     }
+    return = false
 };
